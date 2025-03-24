@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Anthony Fu <https://github.com/litingyes>
+Copyright (c) 2025 Liting Yes <https://github.com/litingyes>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
