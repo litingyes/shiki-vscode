@@ -4,13 +4,13 @@ import { themes } from 'tm-themes'
 import pkgInfo from '../package.json'
 
 function main() {
-  copySync(resolve(__dirname, '../node_modules/tm-themes/themes'), resolve(__dirname, '../src/themes'))
+  copySync(resolve(__dirname, '../node_modules/tm-themes/themes'), resolve(__dirname, '../dist/themes'))
 
   pkgInfo.contributes.themes = themes.map(theme => ({
     id: theme.name,
     label: theme.displayName,
     uiTheme: theme.type === 'dark' ? 'vs-dark' : 'vs',
-    path: `./src/themes/${theme.name}.json`,
+    path: `./dist/themes/${theme.name}.json`,
   }))
 
   writeJSONSync(
