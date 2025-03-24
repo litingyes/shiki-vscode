@@ -397,10 +397,10 @@
     ]
   },
   "scripts": {
-    "build": "tsup src/index.ts --external vscode",
+    "build": "tsup src/index.ts --external vscode && jiti scripts/themes",
     "dev": "nr build --watch --sourcemap",
     "prepare": "nr update",
-    "update": "jiti scripts/themes && vscode-ext-gen --output src/generated/meta.ts",
+    "update": "vscode-ext-gen --output src/generated/meta.ts",
     "lint": "eslint .",
     "vscode:prepublish": "nr build",
     "publish": "vsce publish --no-dependencies",
