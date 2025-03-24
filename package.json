@@ -2,7 +2,7 @@
   "publisher": "litingyes",
   "name": "shiki-vscode",
   "displayName": "Shiki Highlighter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "packageManager": "pnpm@10.4.1",
   "description": "A Visual Studio Code extension that provides beautiful code highlighting using the Shiki syntax highlighter.",
