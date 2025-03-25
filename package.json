@@ -23,7 +23,7 @@
   "icon": "res/icon.png",
   "files": [
     "LICENSE.md",
-    "dist/*",
+    "dist",
     "res/*"
   ],
   "engines": {
